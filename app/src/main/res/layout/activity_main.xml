@@ -51,7 +51,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/open_sans"
-        android:text="Сегодня в тренде"
+        android:text="Продукты которые в тренде"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
