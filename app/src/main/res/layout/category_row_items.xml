@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/category_holder_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="5dp"
+    android:backgroundTint="@color/white"
+    android:outlineAmbientShadowColor="@color/gray_dark"
+    android:outlineSpotShadowColor="@color/mirage"
+    app:cardCornerRadius="50dp"
+    app:cardElevation="20dp"
+    app:strokeColor="#E4E4E4"
+    app:strokeWidth="1.5dp">
+
+    <LinearLayout
+        android:id="@+id/ll_background_1"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/categoryImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_sladosti" />
+
+        <TextView
+            android:id="@+id/txt_title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Сладости"
+            android:textColor="@color/white1"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
